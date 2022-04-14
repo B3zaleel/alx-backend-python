@@ -42,7 +42,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
           return None
   ```
 
-+ [ ] 11. **More involved type annotations**<br/>[101-safely_get_value.py](101-safely_get_value.py) contains a script that includes the code below with type annotations added to it.
++ [x] 11. **More involved type annotations**<br/>[101-safely_get_value.py](101-safely_get_value.py) contains a script that includes the code below with type annotations added to it.
   ```python
   def safely_get_value(dct, key, default = None):
     if key in dct:
