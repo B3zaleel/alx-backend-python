@@ -18,7 +18,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
   + `i_understand_annotations`, a boolean with a value of True.
   + `school`, a string with a value of “Holberton”.
 
-+ [ ] 5. **Complex types - list of floats**<br/>[5-sum_list.py](5-sum_list.py) contains a type-annotated function `sum_list` which takes a list `input_list` of floats as argument and returns their sum as a float.
++ [x] 5. **Complex types - list of floats**<br/>[5-sum_list.py](5-sum_list.py) contains a type-annotated function `sum_list` which takes a list `input_list` of floats as argument and returns their sum as a float.
 
 + [ ] 6. **Complex types - mixed list**<br/>[6-sum_mixed_list.py](6-sum_mixed_list.py) contains a type-annotated function `sum_mixed_list` which takes a list `mxd_lst` of integers and floats and returns their sum as a float.
 
