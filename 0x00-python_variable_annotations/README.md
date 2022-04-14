@@ -4,7 +4,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 
 ## Tasks To Complete
 
-+ [ ] 0. **Basic annotations - add**<br/>[0-add.py](0-add.py) contains a type-annotated function `add` that takes a float `a` and a float `b` as arguments and returns their sum as a float..
++ [x] 0. **Basic annotations - add**<br/>[0-add.py](0-add.py) contains a type-annotated function `add` that takes a float `a` and a float `b` as arguments and returns their sum as a float..
 
 + [ ] 1. **Basic annotations - concat**<br/>[1-concat.py](1-concat.py) contains a type-annotated function `concat` that takes a string `str1` and a string `str2` as arguments and returns a concatenated string.
 
