@@ -51,7 +51,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
         return default
   ```
 
-+ [ ] 12. **Type Checking**<br/>[102-type_checking.py](102-type_checking.py) contains the code below and uses `mypy` to validate it and apply any necessary changes.
++ [x] 12. **Type Checking**<br/>[102-type_checking.py](102-type_checking.py) contains the code below and uses `mypy` to validate it and apply any necessary changes.
   ```python
   def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
     zoomed_in: Tuple = [
