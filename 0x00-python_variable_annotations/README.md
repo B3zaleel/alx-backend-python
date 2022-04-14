@@ -22,7 +22,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 
 + [x] 6. **Complex types - mixed list**<br/>[6-sum_mixed_list.py](6-sum_mixed_list.py) contains a type-annotated function `sum_mixed_list` which takes a list `mxd_lst` of integers and floats and returns their sum as a float.
 
-+ [ ] 7. **Complex types - string and int/float to tuple**<br/>[7-to_kv.py](7-to_kv.py) contains a type-annotated function `to_kv` that takes a string `k` and an int OR float `v` as arguments and returns a tuple. The first element of the tuple is the string `k`. The second element is the square of the int/float `v` and should be annotated as a float.
++ [x] 7. **Complex types - string and int/float to tuple**<br/>[7-to_kv.py](7-to_kv.py) contains a type-annotated function `to_kv` that takes a string `k` and an int OR float `v` as arguments and returns a tuple. The first element of the tuple is the string `k`. The second element is the square of the int/float `v` and should be annotated as a float.
 
 + [ ] 8. **Complex types - functions**<br/>[8-make_multiplier.py](8-make_multiplier.py) contains a type-annotated function `make_multiplier` that takes a float `multiplier` as argument and returns a function that multiplies a float by `multiplier`.
 
