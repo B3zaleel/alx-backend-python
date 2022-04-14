@@ -8,7 +8,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 
 + [x] 1. **Basic annotations - concat**<br/>[1-concat.py](1-concat.py) contains a type-annotated function `concat` that takes a string `str1` and a string `str2` as arguments and returns a concatenated string.
 
-+ [ ] 2. **Basic annotations - floor**<br/>[2-floor.py](2-floor.py) contains a type-annotated function `floor` which takes a float `n` as argument and returns the floor of the float.
++ [x] 2. **Basic annotations - floor**<br/>[2-floor.py](2-floor.py) contains a type-annotated function `floor` which takes a float `n` as argument and returns the floor of the float.
 
 + [ ] 3. **Basic annotations - to string**<br/>[3-to_str.py](3-to_str.py) contains a type-annotated function `to_str` that takes a float `n` as argument and returns the string representation of the float.
 
