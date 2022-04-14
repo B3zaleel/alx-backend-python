@@ -32,7 +32,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
     return [(i, len(i)) for i in lst]
   ```
 
-+ [ ] 10. **Duck typing - first element of a sequence**<br/>[100-safe_first_element.py](100-safe_first_element.py) contains an augmentation of the following code with the correct duck-typed annotations:
++ [x] 10. **Duck typing - first element of a sequence**<br/>[100-safe_first_element.py](100-safe_first_element.py) contains an augmentation of the following code with the correct duck-typed annotations:
   ```python
   # The types of the elements of the input are not know
   def safe_first_element(lst):
