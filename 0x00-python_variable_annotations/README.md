@@ -12,7 +12,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 
 + [x] 3. **Basic annotations - to string**<br/>[3-to_str.py](3-to_str.py) contains a type-annotated function `to_str` that takes a float `n` as argument and returns the string representation of the float.
 
-+ [ ] 4. **Define variables**<br/>[4-define_variables.py](4-define_variables.py) contains a script that define and annotate the following variables with the specified values:
++ [x] 4. **Define variables**<br/>[4-define_variables.py](4-define_variables.py) contains a script that define and annotate the following variables with the specified values:
   + `a`, an integer with a value of 1.
   + `pi`, a float with a value of 3.14.
   + `i_understand_annotations`, a boolean with a value of True.
