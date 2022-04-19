@@ -15,6 +15,9 @@ async def measure_runtime() -> float:
     '''
     start_time = time.time()
     await asyncio.gather(
-        *tuple(map(lambda _: async_comprehension(), range(4)))
+        async_comprehension(),
+        async_comprehension(),
+        async_comprehension(),
+        async_comprehension(),
     )
-    return (time.time() - start_time)
+    return time.time() - start_time
