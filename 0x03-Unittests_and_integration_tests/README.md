@@ -22,7 +22,7 @@ This project contains tasks for learning to write unittests and integration test
   + For each of these inputs, test with `assertEqual` that the function returns the expected result.
   + The body of the test method should not be longer than 2 lines.
 
-+ [ ] 1. **Parameterize a unit test**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
++ [x] 1. **Parameterize a unit test**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
   + Implement `TestAccessNestedMap.test_access_nested_map_exception`. Use the `assertRaises` context manager to test that a `KeyError` is raised for the following inputs (use `@parameterized.expand`):
     ```
     nested_map={}, path=("a",)
