@@ -30,7 +30,7 @@ This project contains tasks for learning to write unittests and integration test
     ```
   + Also make sure that the exception message is as expected.
 
-+ [ ] 2. **Mock HTTP calls**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
++ [x] 2. **Mock HTTP calls**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
   + Familiarize yourself with the `utils.get_json` function.
   + Define the `TestGetJson(unittest.TestCase)` class and implement the `TestGetJson.test_get_json` method to test that `utils.get_json` returns the expected result.
   + We don’t want to make any actual external HTTP calls. Use `unittest.mock.patch` to patch `requests.get`. Make sure it returns a `Mock` object with a `json` method that returns `test_payload` which you parametrize alongside the `test_url` that you will pass to `get_json` with the following inputs:
