@@ -113,12 +113,12 @@ class TestGithubOrgClient(unittest.TestCase):
             self,
             repo: Dict[str, Dict],
             license_key: str,
-            has_key: bool,
+            expected: bool,
             ) -> None:
         """Tests the `has_license` method."""
         self.assertEqual(
             GithubOrgClient.has_license(repo, license_key),
-            has_key,
+            expected,
         )
 
 
