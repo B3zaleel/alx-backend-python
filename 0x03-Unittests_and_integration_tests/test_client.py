@@ -125,10 +125,12 @@ class TestGithubOrgClient(unittest.TestCase):
 @parameterized_class(
     ("org_payload", "repos_payload", "expected_repos", "apache2_repos"),
     [
-        TEST_PAYLOAD[0][0],
-        TEST_PAYLOAD[0][1],
-        TEST_PAYLOAD[0][2],
-        TEST_PAYLOAD[0][3],
+        (
+            TEST_PAYLOAD[0][0],
+            TEST_PAYLOAD[0][1],
+            TEST_PAYLOAD[0][2],
+            TEST_PAYLOAD[0][3],
+        ),
     ],
 )
 class TestIntegrationGithubOrgClient(unittest.TestCase):
@@ -144,7 +146,7 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         def get_payload(url: str) -> Mock:
             if url in route_payload:
                 return Mock(**{'json.return_value': route_payload[url]})
-            return Mock({'json.return_value': {}})
+            return Mock(**{'json.return_value': {}})
 
         cls.get_patcher = patch(
             "requests.get",
