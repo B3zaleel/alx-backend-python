@@ -41,7 +41,7 @@ This project contains tasks for learning to write unittests and integration test
   + Test that the mocked `get` method was called exactly once (per input) with `test_url` as argument.
   + Test that the output of `get_json` is equal to `test_payload`.
 
-+ [ ] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
++ [x] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
   + Read about memoization and familiarize yourself with the `utils.memoize` decorator.
   + Implement the `TestMemoize(unittest.TestCase)` class with a `test_memoize` method.
   + Inside `test_memoize`, define the following class:
