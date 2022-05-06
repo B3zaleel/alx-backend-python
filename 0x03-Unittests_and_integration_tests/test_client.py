@@ -139,10 +139,7 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
                 return Mock(**{'json.return_value': route_payload[url]})
             return Mock(**{'json.return_value': {}})
 
-        cls.get_patcher = patch(
-            "requests.get",
-            side_effect=get_payload,
-        )
+        cls.get_patcher = patch("utils.requests.get", side_effect=get_payload)
         cls.get_patcher.start()
 
     def test_public_repos(self) -> None:
