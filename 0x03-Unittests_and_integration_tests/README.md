@@ -67,7 +67,7 @@ This project contains tasks for learning to write unittests and integration test
     + `abc`.
   + No external HTTP calls should be made.
 
-+ [ ] 5. **Mocking a property**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
++ [x] 5. **Mocking a property**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + `memoize` turns methods into properties. Read up on how to mock a property.
   + Implement the `test_public_repos_url` method to unit-test `GithubOrgClient._public_repos_url`.
   + Use `patch` as a context manager to patch `GithubOrgClient.org` and make it return a known payload.
@@ -80,7 +80,7 @@ This project contains tasks for learning to write unittests and integration test
   + Test that the list of repos is what you expect from the chosen payload.
   + Test that the mocked property and the mocked `get_json` was called once.
 
-+ [ ] 7. **Parameterize**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
++ [x] 7. **Parameterize**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + Implement `TestGithubOrgClient.test_has_license` to unit-test `GithubOrgClient.has_license`.
   + Parametrize the test with the following inputs:
     ```
