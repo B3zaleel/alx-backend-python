@@ -134,7 +134,7 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
             'https://api.github.com/orgs/google/repos': cls.repos_payload,
         }
 
-        def get_payload(url: str) -> Mock:
+        def get_payload(url):
             if url in route_payload:
                 return Mock(**{'json.return_value': route_payload[url]})
             return Mock(**{'json.return_value': {}})
