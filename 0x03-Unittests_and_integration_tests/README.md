@@ -73,7 +73,7 @@ This project contains tasks for learning to write unittests and integration test
   + Use `patch` as a context manager to patch `GithubOrgClient.org` and make it return a known payload.
   + Test that the result of `_public_repos_url` is the expected one based on the mocked payload.
 
-+ [ ] 6. **More patching**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
++ [x] 6. **More patching**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + Implement `TestGithubOrgClient.test_public_repos` to unit-test `GithubOrgClient.public_repos`.
   + Use `@patch` as a decorator to mock `get_json` and make it return a payload of your choice.
   + Use `patch` as a context manager to mock `GithubOrgClient._public_repos_url` and return a value of your choice.
