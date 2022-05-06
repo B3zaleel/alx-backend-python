@@ -111,7 +111,7 @@ class TestGithubOrgClient(unittest.TestCase):
     ])
     def test_has_license(
             self,
-            repo: Dict,
+            repo: Dict[str, Dict],
             license_key: str,
             has_key: bool,
             ) -> None:
