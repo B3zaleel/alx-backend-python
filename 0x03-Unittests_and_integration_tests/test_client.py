@@ -116,10 +116,9 @@ class TestGithubOrgClient(unittest.TestCase):
             has_key: bool,
             ) -> None:
         """Tests the `has_license` method."""
-        self.assertEqual(
-            GithubOrgClient("google").has_license(repo, license_key),
-            has_key,
-        )
+        gh_org_client = GithubOrgClient("google")
+        client_has_licence = gh_org_client.has_license(repo, license_key)
+        self.assertEqual(client_has_licence, has_key)
 
 
 @parameterized_class([
