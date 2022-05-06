@@ -57,7 +57,7 @@ This project contains tasks for learning to write unittests and integration test
     ```
   + Use `unittest.mock.patch` to mock `a_method`. Test that when calling `a_property` twice, the correct result is returned but `a_method` is only called once using `assert_called_once`.
 
-+ [ ] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
++ [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + Familiarize yourself with the `client.GithubOrgClient` class.
   + Declare the `TestGithubOrgClient(unittest.TestCase)` class and implement the `test_org` method.
   + This method should test that `GithubOrgClient.org` returns the correct value.
