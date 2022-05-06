@@ -89,7 +89,7 @@ This project contains tasks for learning to write unittests and integration test
     ```
   + You should also parameterize the expected returned value.
 
-+ [ ] 8. **Integration test: fixtures**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
++ [x] 8. **Integration test: fixtures**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + We want to test the `GithubOrgClient.public_repos` method in an integration test. That means that we will only mock code that sends external requests.
   + Create the `TestIntegrationGithubOrgClient(unittest.TestCase)` class and implement the `setUpClass` and `tearDownClass` which are part of the `unittest.TestCase` API.
   + Use `@parameterized_class` to decorate the class and parameterize it with fixtures found in [fixtures.py](fixtures.py). The file contains the following fixtures:
