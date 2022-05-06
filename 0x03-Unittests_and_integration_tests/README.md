@@ -84,8 +84,8 @@ This project contains tasks for learning to write unittests and integration test
   + Implement `TestGithubOrgClient.test_has_license` to unit-test `GithubOrgClient.has_license`.
   + Parametrize the test with the following inputs:
     ```
-    repo={"license": {"key": "my_license"}}, license_key="my_license"
-    repo={"license": {"key": "other_license"}}, license_key="my_license"
+    repo={"license": {"key": "bsd-3-clause"}}, license_key="bsd-3-clause"
+    repo={"license": {"key": "bsl-1.0"}}, license_key="bsd-3-clause"
     ```
   + You should also parameterize the expected returned value.
 
