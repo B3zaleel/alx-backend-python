@@ -28,3 +28,19 @@ class TestGithubOrgClient(unittest.TestCase):
         mocked_fxn.assert_called_once_with(
             "https://api.github.com/orgs/{}".format(org)
         )
+
+    @parameterized.expand([
+        ({"license": {"key": "my_license"}}, "my_license", True),
+        ({"license": {"key": "other_license"}}, "my_license", False),
+    ])
+    def test_has_license(
+            self,
+            repo: Dict,
+            license_key: str,
+            has_key: bool,
+            ) -> None:
+        """Tests the `has_license` method."""
+        self.assertEqual(
+            GithubOrgClient.has_license(repo, license_key),
+            has_key,
+        )
